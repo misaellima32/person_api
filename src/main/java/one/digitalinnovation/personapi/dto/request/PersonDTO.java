@@ -36,4 +36,8 @@ public class PersonDTO {
     @Valid
     @NotEmpty
     private List<PhoneDTO> phones;
+
+    @Valid
+    @NotEmpty
+    private List<AddressDTO> address;
 }
